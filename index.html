@@ -21,97 +21,24 @@
 <body>
   <header></header>
   <!-- username=behshad -->
-  <main class="container">
-    <form>
+
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=172.60688781738284%2C-43.53870268559262%2C172.6353406906128%2C-43.52101421080354&amp;layer=mapnik&amp;marker=-43.52985131806708%2C172.6211142539978"></iframe>
+    <h1>Contact us</h1>
+    <main class="container">
+    <form class="form">
+      <label for="username">username</label>
       <input
         type="text"
-        name="username"
-        value="behshad"
+        id="username"
       >
-      <input type="password">
-      <input type="email">
+      <label for="email">email</label>
       <input
-        type="color"
-        value="#ff9999"
+        type="email"
+        id="email"
       >
-      <input
-        type="range"
-        min="10"
-        max="100"
-        step="10"
-      >
-      <input type="time">
-      <input type="date">
-      <input type="month">
-      <input type="search">
-      <input type="url">
-      <input type="datetime-local">
-      <input type="number">
-      <input type="tel">
-      <input
-        name=""
-        type="week"
-      >
-      <textarea
-        name="comments"
-        cols="50"
-        rows="10"
-      ></textarea>
-      <br>
-      <input
-        type="radio"
-        name="weekend"
-        value="friday"
-      >friday
-      <input
-        value="saturday"
-        type="radio"
-        name="weekend"
-        checked
-      >saturday
-      <input
-        value="sunday"
-        type="radio"
-        name="weekend"
-      >sunday
-      <br>
-      <input type="checkbox" name="fruit" value="apple" checked>apple
-      <input value="orange" type="checkbox" name="fruit">orange
-      <input value="kiwi" type="checkbox" name="fruit">kiwi
-      <br>
-      <select name="fruit">
-        <option value="apple">apple</option>
-        <option value="kiwi">kiwi</option>
-        <option selected value="orange">orange</option>
-        <option value="wm">watermelon</option>
-      </select>
-
-      <br>
-      <input type="file">
-      <br>
-      <label for="username">username</label>
-      <input id="username" type="text" name="username">
-
-      <label>phone number
-         <input required type="tel" placeholder="phone number">
-      </label>
-      <br>
-      <fieldset class="myform-fieldset">
-        <legend>login form</legend>
-        <label>name
-          <input type="text" disabled>
-        </label>
-        <label>password
-          <input type="password" placeholder="enter password here">
-        </label>
-        <label >email
-          <input required type="email">
-        </label>
-        <label>website
-          <input required type="url">
-        </label>
-      </fieldset>
-      <input type="submit" value="Hello World">
+      <label for="comments">comments</label>
+      <textarea id="comments"></textarea>
+      <input type="submit">
     </form>
   </main>
 
