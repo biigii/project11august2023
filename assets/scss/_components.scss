@@ -1,0 +1,14 @@
+@use './variables' as v;
+
+figure {
+  background-color: v.$brand;
+  padding: 20px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.random-image img {
+  width: 480px;
+  height: 480px;
+  object-fit: cover;
+}
