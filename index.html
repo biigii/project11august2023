@@ -10,10 +10,8 @@
   <title>project 11</title>
   <link
     rel="stylesheet"
-    href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
   >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
   <link
     rel="stylesheet"
     href="./assets/css/main.min.css"
@@ -21,23 +19,100 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href=""><span class="fa-spin fa-solid fa-cog fa-10x"></span>home</a>
-      <a href=""><i class="fa-solid fa-person"></i>about</a>
-      <a href=""><i class="fa-regular fa-envelope"></i>contact</a>
-    </nav>
-  </header>
-    <!-- <header>
-    <nav>
-      <a href=""><i class="bi bi-house-door"></i>home</a>
-      <a href=""><i class="bi bi-person"></i>about</a>
-      <a href=""><i class="bi bi-envelope-at"></i>contact</a>
-    </nav>
-  </header> -->
-  <h1>hello world</h1>
+  <header></header>
+  <!-- username=behshad -->
   <main class="container">
+    <form>
+      <input
+        type="text"
+        name="username"
+        value="behshad"
+      >
+      <input type="password">
+      <input type="email">
+      <input
+        type="color"
+        value="#ff9999"
+      >
+      <input
+        type="range"
+        min="10"
+        max="100"
+        step="10"
+      >
+      <input type="time">
+      <input type="date">
+      <input type="month">
+      <input type="search">
+      <input type="url">
+      <input type="datetime-local">
+      <input type="number">
+      <input type="tel">
+      <input
+        name=""
+        type="week"
+      >
+      <textarea
+        name="comments"
+        cols="50"
+        rows="10"
+      ></textarea>
+      <br>
+      <input
+        type="radio"
+        name="weekend"
+        value="friday"
+      >friday
+      <input
+        value="saturday"
+        type="radio"
+        name="weekend"
+        checked
+      >saturday
+      <input
+        value="sunday"
+        type="radio"
+        name="weekend"
+      >sunday
+      <br>
+      <input type="checkbox" name="fruit" value="apple" checked>apple
+      <input value="orange" type="checkbox" name="fruit">orange
+      <input value="kiwi" type="checkbox" name="fruit">kiwi
+      <br>
+      <select name="fruit">
+        <option value="apple">apple</option>
+        <option value="kiwi">kiwi</option>
+        <option selected value="orange">orange</option>
+        <option value="wm">watermelon</option>
+      </select>
 
+      <br>
+      <input type="file">
+      <br>
+      <label for="username">username</label>
+      <input id="username" type="text" name="username">
+
+      <label>phone number
+         <input required type="tel" placeholder="phone number">
+      </label>
+      <br>
+      <fieldset class="myform-fieldset">
+        <legend>login form</legend>
+        <label>name
+          <input type="text" disabled>
+        </label>
+        <label>password
+          <input type="password" placeholder="enter password here">
+        </label>
+        <label >email
+          <input required type="email">
+        </label>
+        <label>website
+          <input required type="url">
+        </label>
+      </fieldset>
+      <input type="submit" value="Hello World">
+    </form>
   </main>
 
 </body>
